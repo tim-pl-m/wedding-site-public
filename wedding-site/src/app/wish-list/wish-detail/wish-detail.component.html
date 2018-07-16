@@ -1,0 +1,30 @@
+<div class='panel panel-primary' *ngIf='wish'>
+    <div class='panel-heading'>
+        {{pageTitle + ': ' + wish.name}}
+    </div>
+
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <div class='row'>
+                    <div class='col-md-3'>Name:</div>
+                    <div class='col-md-6'>{{wish.name}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Description:</div>
+                    <div class='col-md-6'>{{wish.description}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Price:</div>
+                    <div class='col-md-6'>{{wish.price | convertPrices}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='panel-footer'>
+        <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </a>
+    </div>
+</div>

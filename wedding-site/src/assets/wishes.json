@@ -1,0 +1,38 @@
+[
+    {
+        "wishId":1,
+        "wishUrl":"http://www.liverpool.no",
+        "name":"LFC Kit",
+        "price":499,
+        "description":"LFC kit for our daughter"
+    },
+    {
+        "wishId":2,
+        "wishUrl":"http://www.vg.no",
+        "name":"Newspaper",
+        "price":99,
+        "description":"Newspaper subscription"
+    },
+    {
+        "wishId":3,
+        "wishUrl":"http://www.hotels.com",
+        "name":"Hotel gift card",
+        "price":799,
+        "description":"Gift card for a hotel"
+    },
+    {
+        "wishId":4,
+        "wishUrl":"http://www.norwegian.com",
+        "name":"Travel",
+        "price":999,
+        "description":"Travel gift card"
+    },
+    {
+        "wishId":5,
+        "wishUrl":"http://www.caixabank.es",
+        "name":"CaixaBank account",
+        "price":0,
+        "description":"Spanish bank account"
+    }
+
+]
